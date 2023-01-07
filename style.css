@@ -1,0 +1,33 @@
+h1 {
+
+    font-family: 'Lobster Two', cursive;
+}
+body{
+    
+    font-weight: bold;
+    background-color: rgb(188, 188, 188);
+    font-size: 25px;
+    font-family: 'Klee One', cursive;
+}
+
+#header_div{
+    background-color:rgb(255, 255, 255) ;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+
+    width: 17%;
+    height: 50%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    font-family: cursive;
+    text-align: center;
+ line-height: 3;
+ font-size: 15px;
+}

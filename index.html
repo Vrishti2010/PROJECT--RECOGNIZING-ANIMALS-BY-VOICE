@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> sound-controlled-animals-project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<style> @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap'); </style>
+            
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+<center>
+    <div id="header_div">
+        <h1 style="font-weight: 700;">Sound Controlled Animals</h1>
+        <h4> NOTE: Play different sounds like barking, meowing, mooing and roar</h4>
+    </div>
+<br>  
+<button class="btn btn-primary" onclick="startclassification()"> START </button> <br> <br>
+<label id="animal_name">I can hear- </label> <br> 
+<label id="animal_voice_detected"></label> <br> <br>
+<img src="ear.gif" id="animal_img" >
+
+</center>
+<div id="footer">DEVELOPED BY- VRISHTI RAWAT</div>
+        </body>
+</html>
